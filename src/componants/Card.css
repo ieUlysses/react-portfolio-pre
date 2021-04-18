@@ -1,0 +1,74 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+
+}
+.introCard{
+  background-color: white;
+  
+}
+
+
+
+.introText{
+  color: black;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+/* Phones */
+@media only screen and (max-width: 600px) {
+  
+  .introCard{
+    
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    padding: 5%;
+    
+  }
+ 
+  .introImage{
+    height:80%;
+    width:80%;
+    margin-left:25%;
+  }
+   
+  .introText{
+    height: 55%;
+  }
+   
+}
+
+/* Tablets */
+@media only screen and (min-width: 600px) {
+  
+} 
+
+
+
+
+/* Desktops */
+@media only screen and (min-width: 992px) {
+
+} 
